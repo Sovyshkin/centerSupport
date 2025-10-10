@@ -46,6 +46,11 @@ export default {
             street: "Максима Горького, 8 ​цокольный этаж",
             coords: [51.755986, 55.095859],
           },
+          {
+            city: "Оренбург",
+            street: "Шарлыкское шоссе, 1/2 (вход Сбербанк) каб. 123",
+            coords: [51.844744, 55.118119],
+          },
         ];
         for (let i = 0; i < branches.length; i++) {
           const placemark = new ymaps.Placemark(
